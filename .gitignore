@@ -1,0 +1,23 @@
+# Dependências instaladas
+node_modules/
+
+# Resultado da compilação TypeScript
+dist/
+
+# Variáveis de ambiente
+.env
+
+# Código gerado automaticamente pelo Prisma
+src/generated/prisma/
+
+# Arquivo local do banco SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Instruções locais para assistentes de código
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
